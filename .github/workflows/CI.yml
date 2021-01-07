@@ -21,12 +21,12 @@ jobs:
     strategy:
       matrix:
         include:
-          - #build_variant: "mt7620"
-           # targets: "PSG1208 PSG1218 NEWIFI-MINI MI-MINI MI-3 OYE-001 5K-W20"
-          - #build_variant: "mt7628"
-           # targets: "HC5861B MI-NANO MZ-R13 MZ-R13P 360P2 HC5761A HC5661A"
-          - #build_variant: "mt7621"
-            #targets: "K2P_nano-5.0 K2P-5.0 DIR-878-5.0 RM2100"
+          - build_variant: "mt7620"
+            targets: ""
+          - build_variant: "mt7628"
+            targets: ""
+          - build_variant: "mt7621"
+            targets: ""
           - build_variant: "mt7621-usb"
             targets: "ZTE_E8820s"
     steps:
