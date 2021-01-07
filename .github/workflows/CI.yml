@@ -21,12 +21,12 @@ jobs:
     strategy:
       matrix:
         include:
-          - build_variant: "mt7620"
-            targets: ""
-          - build_variant: "mt7628"
-            targets: ""
-          - build_variant: "mt7621"
-            targets: ""
+          #- build_variant: "mt7620"
+            #targets: ""
+          #- build_variant: "mt7628"
+            #targets: ""
+          #- build_variant: "mt7621"
+            #targets: ""
           - build_variant: "mt7621-usb"
             targets: "ZTE_E8820s"
     steps:
