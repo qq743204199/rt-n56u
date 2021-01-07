@@ -28,7 +28,7 @@ jobs:
           #- build_variant: "mt7621"
             #targets: ""
           - build_variant: "mt7621-usb"
-            targets: "ZTE_E8820s"
+            targets: "b70"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
